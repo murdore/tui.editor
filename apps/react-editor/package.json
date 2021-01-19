@@ -9,6 +9,7 @@
     "index.d.ts"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "lint": "eslint src/**",
     "build": "webpack -p --progress",
     "storybook": "start-storybook -p 6006",
