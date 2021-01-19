@@ -9,6 +9,7 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
+    "prepare": "npm run build:react",
     "build:editor": "lerna run --scope @toast-ui/editor build",
     "build:jquery": "lerna run --scope @toast-ui/jquery-editor build",
     "build:react": "lerna run --scope @toast-ui/react-editor build",
