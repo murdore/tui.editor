@@ -11,13 +11,14 @@ body {
 
 .tui-doc-description,
 .tui-doc-description a {
-  font-family: Arial;
+  font-family: 'Fira Code', monospace;
   font-size: 14px;
   color: #515ce6;
 }
 
 .tui-doc-contents {
   padding: 20px 52px;
+  font-family: 'Fira Code', monospace;
 }
 
 .tui-doc-contents .btn {
@@ -35,4 +36,5 @@ body {
   cursor: pointer;
   border-radius: 5px;
   outline: 0;
+  font-family: 'Fira Code', monospace;
 }

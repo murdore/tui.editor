@@ -1,6 +1,5 @@
 .te-md-container .CodeMirror {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', '나눔바른고딕',
-    'Nanum Barun Gothic', '맑은고딕', 'Malgun Gothic', sans-serif;
+  font-family: 'Fira Code', monospace;
   color: #222;
 }
 
@@ -126,6 +125,5 @@
 
 .tui-md-code,
 .tui-md-code-block {
-  font-family: Consolas, Courier, 'Lucida Grande', '나눔바른고딕', 'Nanum Barun Gothic', '맑은고딕',
-    'Malgun Gothic', sans-serif;
+  font-family: 'Fira Code', monospace;
 }

@@ -209,7 +209,7 @@
   position: relative;
   border: 1px solid #e5e5e5;
   height: 100%;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Code', monospace;
 }
 
 .tui-editor-defaultUI button {
@@ -290,6 +290,7 @@
   width: auto;
   color: #777777;
   border: 0;
+  font-family: 'Fira Code', monospace;
 }
 
 .tui-editor-defaultUI button.tui-scrollsync:after {
@@ -944,7 +945,7 @@
 
 .te-ww-block-overlay.code-block-header {
   text-align: right;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Code', monospace;
 }
 
 .te-ww-block-overlay.code-block-header span {
@@ -1010,7 +1011,7 @@
 }
 
 .te-input-language input {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Code', monospace;
   font-size: 10px;
   padding: 3px 5px;
   border: 1px solid #dddddd;
@@ -1117,8 +1118,7 @@
 }
 
 .tui-popup-code-block-editor .CodeMirror-line {
-  font-family: Consolas, Courier, 'Apple SD 산돌고딕 Neo', -apple-system, 'Lucida Grande',
-    'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', 'Segoe UI', '돋움', dotum, sans-serif;
+  font-family: 'Fira Code', monospace;
   font-size: 13px;
   line-height: 160%;
   letter-spacing: -0.3px;
