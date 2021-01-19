@@ -1,6 +1,6 @@
 /*!
  * to-mark
- * @version 1.0.1 | Mon Jan 18 2021
+ * @version 1.0.1 | Tue Jan 19 2021
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
