@@ -191,7 +191,6 @@ function setProductionConfig(config) {
 
   if (minify) {
     addMinifyPlugin(config);
-    addAnalyzerPlugin(config, 'normal');
   }
 }
 
@@ -202,7 +201,6 @@ function setProductionConfigForAll(config) {
 
   if (minify) {
     addMinifyPlugin(config);
-    addAnalyzerPlugin(config, 'all');
   }
 }
 
