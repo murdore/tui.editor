@@ -33,7 +33,6 @@
   "homepage": "https://ui.toast.com",
   "browserslist": "last 2 versions, not ie <= 10",
   "scripts": {
-    "prepare": "npm run build",
     "lint": "eslint .",
     "test": "karma start --no-single-run",
     "test:ne": "cross-env KARMA_SERVER=ne karma start",
